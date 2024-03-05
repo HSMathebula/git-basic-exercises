@@ -1,0 +1,350 @@
+    1  wls
+    2  wsl
+    3  cd ./documents
+    4  cd ./umuzi
+    5  mkdir git-basic-exercises
+    6  mkdir git-basic-exercises
+    7  cd ./git-basic-exercises
+    8  ls -a
+    9  git init .
+   10  ls -a
+   11  git status
+   12  touch README.md
+   13  touch README.md
+   14  ls -a
+   15  git status
+   16  git log
+   17  git add .
+   18  git status
+   19  git log
+   20  q
+   21  nano README.md
+   22  cat README.md
+   23  git add .
+   24  git commit -m "second commit"
+   25  cat README.md
+   26  nano README.md
+   27  cat README.md
+   28  git commit -m "third commit"
+   29  git add .
+   30  git commit -m "third commit"
+   31  git log
+   32  git checkout
+   33  git checkoutt 02397a76d04fd90abdb4a6243644d0c71fbd25a2
+   34  git checkout 02397a76d04fd90abdb4a6243644d0c71fbd25a2
+   35  cat README.md~
+   36  cat README.md
+   37  git checkout main
+   38  cat README.md
+   39  git checkout
+   40  git checkout main
+   41  git checkout master
+   42  cat README.md
+   43  git branch
+   44  git branch milkshake-flavours
+   45  git branch
+   46  git checkout milkshake-flavours
+   47  nano milkshakes.md
+   48  git status
+   49  git add .
+   50  git commit -m "added initial flavours"
+   51  git log
+   52  git checkout master
+   53  git log
+   54  git branch history
+   55  git log
+   56  git checkout milkshake-flavours
+   57  git log
+   58  nano README.md
+   59  git add .
+   60  git commit -m "random readme changes"
+   61  git checkout history
+   62  cat README.md
+   63  rm README.md
+   64  rm README.md
+   65  echo "booya" > README.md
+   66  echo "booya" > README.md
+   67  git add .
+   68  git commit -m "rewrote readme"
+   69  git checkout master
+   70  ls
+   71  git log
+   72  git checkout milkshake-flavours
+   73  ls
+   74  git log
+   75  git checkout history
+   76  ls
+   77  git log
+   78  cd ./documents/umuzi
+   79  mrdir git-basic-exercises
+   80  mkdir git-basic-exercises
+   81  cd ./git-basic-exercises
+   82  git init .
+   83  git status
+   84  touch README.md
+   85  git status
+   86  git add README.md
+   87  git commit -m "initial commit"
+   88  git log
+   89  nano README.md
+   90  cat README.md
+   91  git status
+   92  git commit -m "second commit"
+   93  git add .
+   94  git commit -m "second commit"
+   95  git log
+   96  nano README.md
+   97  git status
+   98  git add .
+   99  git commit -m "third commit"
+  100  git status
+  101  git log
+  102  git branch milkshake-flavours
+  103  git branch
+  104  git checkout milkshake-flavours
+  105  nano milkshakes.md
+  106  git status
+  107  git add .
+  108  git commit -m "added initial flavours"
+  109  git status
+  110  git log
+  111  git branch history
+  112  git checkout history
+  113  git log
+  114  git status
+  115  history > history.txt
+  116  git status
+  117  git add .
+  118  git commit -m "added history"
+  119  git log
+  120  git checkout milkshake-flavours
+  121  git log
+  122  nano README.md
+  123  git add .
+  124  git commit -m "random readme changes"
+  125  git status
+  126  git checkout history
+  127  cat README.md
+  128  rm README.md
+  129  echo "booya" > README.md
+  130  git status
+  131  git add .
+  132  git commit -m "rewrote readme"
+  133  git checkout master
+  134  ls
+  135  git log
+  136  git checkout milkshake-flavours
+  137  ls
+  138  git log
+  139  git checkout history
+  140  ls
+  141  git log
+  142  git checkout master
+  143  git merge milkshake-flavours
+  144  git merge milkshake-flavours
+  145  ls
+  146  git log
+  147  git merge history
+  148  git checkout history
+  149  git merge history
+  150  git add .
+  151  git commit -m "fixed merge issues between histry branch and master"
+  152  git remote add origin https://github.com/HSMathebula/git-basic-exercises.git
+  153  git branch -M main
+  154  git push -u origin main
+  155  git checkout history
+  156  git push history
+  157  git checkout main
+  158  git merge history
+  159  git merge milkshake-flavours
+  160  git push origin history
+  161  git pull history
+  162  git push origin milkshake-flavours
+  163  git pull milkshake-flavours
+  164  cd ./documents/umuzi
+  165  mkdir git-basic-exercises
+  166  cd ./git-basic-exercises
+  167  ls -a
+  168  git init
+  169  git init .
+  170  ls -a
+  171  git status
+  172  touch README.md
+  173  ls -a
+  174  git status
+  175  git log
+  176  git add .
+  177  git status
+  178  git commit -m "initial commit"
+  179  nano README.md
+  180  cat README.md
+  181  git status
+  182  git add .
+  183  git commit -m "second commit"
+  184  nano README.md
+  185  git add .
+  186  git commit -m "third commit"
+  187  git log
+  188  git checkout  dda7c6f3f704463b84e829a1c52daa842976ed21
+  189  cat README.md
+  190  git checkout master
+  191  cat README.md
+  192  git branch milkshake-flavour
+  193  git checkout milkshake-flavour
+  194  nano milkshake-flavour
+  195  git status
+  196  git commit -m "added initial flavours"
+  197  git add .
+  198  git commit -m "added initial flavours"
+  199  git status
+  200  git log
+  201  git checkout master
+  202  git status
+  203  git log
+  204  git branch history
+  205  git checkout history
+  206  history > history.txt
+  207  git log
+  208  git add .
+  209  git commit -m "added history"
+  210  git log
+  211  git checkout milkshake-flavour
+  212  git log
+  213  git checkout master
+  214  nano README.md
+  215  git add .
+  216  git commit -m "random readme changes"
+  217  git checkout history
+  218  cat README.md
+  219  rm README.md
+  220  echo "booya" > README.md
+  221  git add .
+  222  git commit -m "rewrote readme"
+  223  git checkout master
+  224  ls
+  225  git log
+  226  cd ./documents/umuzi
+  227  mkdir git-basic-exercises
+  228  cd ./git-basic-exercises
+  229  git init
+  230  ls -a
+  231  git status
+  232  touch README.md
+  233  git log
+  234  ls -a
+  235  git add .
+  236  git commit -m "initial commit"
+  237  nano README.md
+  238  cat README.md
+  239  git add .
+  240  git commit -m "second commit"
+  241  nano README.md
+  242  git add .
+  243  git commit -m "third commit"
+  244  git log
+  245  git checkout -b milkshake-flavours
+  246  nano milkshakes.md
+  247  git status
+  248  git add .
+  249  git commit -m "added initial flavours"
+  250  git checkout master
+  251  git checkout -b history
+  252  history > history.txt
+  253  git add .
+  254  git commit -m "added history"
+  255  git checkout milkshake-flavours
+  256  nano README.md
+  257  git add .
+  258  git commit -m "random readme changes"
+  259  git status
+  260  git log
+  261  git checkout history
+  262  cat README.md
+  263  rm README.md
+  264  echo "booya" > README.md
+  265  git log
+  266  git add .
+  267  git commit -m "rewrote readme"
+  268  git log
+  269  git checkout master
+  270  ls
+  271  git log
+  272  git checkout milkshake-flavours
+  273  ls
+  274  git log
+  275  git checkout history
+  276  ls
+  277  git log
+  278  git checkout master
+  279  git merge milkshake-flavours
+  280  ls
+  281  git merge history
+  282  ls
+  283  git log
+  284  git merge history
+  285  git checkout history
+  286  git merge --continue
+  287  git status
+  288  git log
+  289  cat README.md
+  290  git checkout history
+  291  git checkout master
+  292  git checkout history
+  293  git log
+  294  git merge milkshake-flavours
+  295  git log
+  296  git checkout milkshake-flavours
+  297  git log
+  298  git checkout master
+  299  git log
+  300  git remote add origin https://github.com/HSMathebula/git-basic-exercises.git
+  301  git branch -M main
+  302  git push -u origin main
+  303  git checkout milkshake-flavours
+  304  git push origin milkshake-flavours
+  305  git checkout history
+  306  git push origin history
+  307  git init
+  308  touch README.md
+  309  git add .
+  310  git commit -m "initial commit"
+  311  nano README.md
+  312  git add .
+  313  git commit -m "second commit"
+  314  nano README.md
+  315  git add .
+  316  git commit -m "third commit"
+  317  git log
+  318  git checkout -b milkshake-flavours
+  319  nano milkshakes.md
+  320  git add .
+  321  git commit -m "added initial flavours"
+  322  git log
+  323  git checkout -b history
+  324  history > history.txt
+  325  git add .
+  326  git commit -m "added history
+  327  "
+  328  git log
+  329  git init .
+  330  touch README.md
+  331  git add .
+  332  git commit -m "initial commit"
+  333  git log
+  334  nano README.md
+  335  cat README.md
+  336  git add .
+  337  git commit -m "second commit"
+  338  git log
+  339  nano README.md
+  340  git add .
+  341  git commit -m "third commit"
+  342  git log
+  343  git checkout -b milkshake-flavours
+  344  nano milkshakes.md
+  345  git add .
+  346  git commit -m "added initial flavours"
+  347  git log
+  348  git checkout master
+  349  git checkout -b history
+  350  history > history.txt
